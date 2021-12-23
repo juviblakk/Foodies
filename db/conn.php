@@ -1,18 +1,17 @@
 <?php
-    $host='127.0.0.1';
-    $db='Foodies_db';
-    $user='root';
-    $pass='';
-    $charset='utf8mb4';
-
+    // $host='127.0.0.1';
+    // $db='Foodies_db';
+    // $user='root';
+    // $pass='';
+    // $charset='utf8mb4';
 
 
     //Remote Database Connection
-    // $host='remotemysql.com';
-    // $db='sZkIzyrnvg';
-    // $user='sZkIzyrnvg';
-    // $pass='Ta3Iiilhl6';
-    // $charset='utf8mb4';
+    $host='remotemysql.com';
+    $db='qxHTCc3Tnw';
+    $user='qxHTCc3Tnw';
+    $pass='CRVg3CIs7R';
+    $charset='utf8mb4';
 
     $dsn= "mysql:host=$host;dbname=$db;charset=$charset";
 
