@@ -37,7 +37,7 @@
             <ul>
                 <li><a class="active" href="index.php">home</a></li>
                 <li><a href="about.php">about</a></li>
-                <li><a href="menu.php">menu</a></li>
+                <li><a href="Menu.php">menu</a></li>
                 <li><a href="chef.php">chef</a></li>
                 <li><a href="gallery.php">gallery</a></li>
                 <li><a href="order.php">order</a></li>
