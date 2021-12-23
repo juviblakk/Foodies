@@ -34,7 +34,7 @@ require_once 'includes/header.php';
         <div class="info">
             <h3> <span>03.</span> Dinner </h3>
             <p>Jerk Turkey | Lonster | Fried Fish | Lo Mein</p>
-            <p>Rice |  Mash potatoes | Mac & Cheese | Salad</p>
+            <p>Rice |  Mash potatoes | Mac & Cheese | Rainbow Salad</p>
         </div>
         <div class="info">
             <h3> <span>04.</span> Dessert </h3>
