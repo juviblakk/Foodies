@@ -7,7 +7,7 @@
             $key = '';
 
             $email = new \SendGrid\Mail\Mail();
-            $email->setFrom("jovonitaylor12@gmail.com", "Jovoni Taylor");
+            $email->setFrom("flowing_usher0u@icloud.com", " Foodie");
             $email->setSubject($subject);
             $email->addTo($to);
             $email->addContent("text/plain", $content);
