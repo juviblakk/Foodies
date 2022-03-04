@@ -39,4 +39,8 @@ $(document).ready(function(){
     $("#departureMonth").val(orderDate.getMonth());
     $("#departureDay").val(orderDate.getDate());
 
+    
+    
+
+
 });

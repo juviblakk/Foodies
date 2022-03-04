@@ -36,17 +36,13 @@
         <nav class="navbar">
             <ul>
                 <li><a class="active" href="index.php">home</a></li>
-                <li><a href="about.php">about</a></li>
-                <li><a href="Menu.php">menu</a></li>
-                <li><a href="chef.php">chef</a></li>
+                <li><a href="Topic.php">Topic</a></li>
+                <li><a href="Web-Server.php">Web Server</a></li>
+                <li><a href="FTP-Server.php">FTP Server</a></li>
+                <li><a href="Team.php">Team</a></li>
                 <li><a href="gallery.php">gallery</a></li>
-                <li><a href="order.php">order</a></li>
-                <li>
-                    <?php if(!isset($_SESSION['userid']))?>
-                    <a href="login.php">login</a>
-                </li>
-            </ul>
-            
+             </ul>
+
         </nav>
 
 </header>
