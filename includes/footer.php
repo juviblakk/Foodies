@@ -14,7 +14,7 @@
             </div>
 
             <h1 class="credit">
-                Copyright &copy; - Foodie’s <?php echo date('Y'); ?>
+                Copyright &copy; - Tech Talk <?php echo date('Y'); ?>
             </h1>
 
         </div>
