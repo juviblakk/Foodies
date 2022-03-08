@@ -10,21 +10,24 @@ require_once 'includes/header.php';
     <div class="box-container">
 
         <div class="box">
-            <img src="images/Jovoni.png" alt="">
+            <img src="images/Jovoni Taylor.jpeg" alt="">
             <h3>Jovoni Taylor</h3>
         </div>
-
         <div class="box">
-            <img src="images/chef-niix-1.jpeg" alt="">
-            <h3>Alester Messam</h3>
+            <img src="images/Allester Messam.jpeg" alt="">
+            <h3>Allester Messam</h3>
         </div>
         <div class="box">
-            <img src="images/chef-niix-1.jpeg" alt="">
+            <img src="images/Kenroy Harrow.jpeg" alt="">
             <h3>Kenroy Harrow</h3>
         </div>
         <div class="box">
-            <img src="images/chef-niix-1.jpeg" alt="">
+            <img src="images/Vaughn Patterson.jpeg" alt="">
             <h3>Vaughn Patterson</h3>
+        </div>
+        <div class="box">
+            <img src="images/Lorenzo Williams.jpeg" alt="">
+            <h3>Lorenzo Williams</h3>
         </div>
     </div>
 
