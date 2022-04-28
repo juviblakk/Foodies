@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home</title>
+
+        
+        <!-- aos css cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+        <!-- google fonts cdn link  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+        
+
+    </head>
+
+    <body>
+        
+    <header>
+
+        <a href="index.php" class="logo"><img src="images/ServerLogo.png" alt=""></a>
+
+        <div id="menu-bar" class="fas fa-hamburger"></div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="index.php">home</a></li>
+                <li><a href="Topic.php">Topic</a></li>
+                <li><a href="main.html">Course</a></li>
+                <li><a href="Web-Server.php">Web Server</a></li>
+                <li><a href="FTP-Server.php">FTP Server</a></li>
+                <li><a href="Team.php">Team</a></li>
+                <li><a href="gallery.php">gallery</a></li>
+                <li><a href="ContactUs.php">Contact Us</a></li>
+             </ul>
+
+        </nav>
+
+</header>
+
+<section class="about" id="about">
+
+    <div class="image"></div>
+    
+    <div class="content">
+        <h3>INFORMATION & COMMUNICATION TECHNOLOGY</h3>
+        <p>
+            ICT degree is a 4-year Bachelors degree programme, in years three (3) and four (4), goes on to offer three distinct areas of specialization, 
+            namely, Networking and Cyber Security, Mobile and Digital Media Development (gaming), and Software Engineering (computer programming). 
+            Students have the opportunity to major in one or two of these areas of specialization during their course of study.
+        </p>
+
+        <p>
+            After completing the programme graduates will be able to demonstrate the competencies required to function effectively as ICT professionals.
+            Communicate clearly to stakeholders using a variety of methods and approaches,apply good analytical, design, and implementation skills required
+            to formulate and solve technology based problems.Analyse various implementation approaches to distributed domains.Design cloud based services that 
+            fulfill the requirements of distributed virtualization. 
+        </p>
+
+
+    </div>
+    
+</section>
+
+
+
+
+
+<div class="footer">
+
+    <h3 class="credit">contact info</h3>
+    <div class="box-container">
+        
+        <div class="box">
+            <p> <i class="fas fa-map-marker-alt"></i> Kingston, Jamaica </p>
+            <p> <i class="fas fa-envelope"></i> example@gmail.com </p>
+        </div>
+        <div class="box">
+            <p> <i class="fas fa-phone"></i> +876-555-5555 </p>
+            <p> <i class="fas fa-phone"></i> +876-222-3333 </p>
+        </div>
+    </div>
+
+    <h1 class="credit">
+        Copyright &copy; - Tech Talk <?php echo date('Y'); ?>
+    </h1>
+
+</div>
+
+<script>
+$( function() {
+    $( "#dob" ).datepicker( {
+        changeMonth: true,
+        changeYear: true,
+        yearRange: "-100:+0",
+        dateFormat: "yy-mm-dd"
+    });
+
+} );
+</script>
+
+</body>
+</html>

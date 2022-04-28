@@ -16,7 +16,7 @@
 
         <!-- font awesome cdn link  -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <!-- custom css file link  -->
         <link rel="stylesheet" href="css/style.css">
         <title>Foodie - <?php echo $title ?></title>
@@ -29,7 +29,7 @@
 
     <header>
 
-        <a href="index.php" class="logo"><img src="images/bearded-chef.png" alt=""></a>
+        <a href="index.php" class="logo"><img src="images/ServerLogo.png" alt=""></a>
 
         <div id="menu-bar" class="fas fa-hamburger"></div>
 
@@ -37,10 +37,12 @@
             <ul>
                 <li><a class="active" href="index.php">home</a></li>
                 <li><a href="Topic.php">Topic</a></li>
+                <li><a href="main.html">Course</a></li>
                 <li><a href="Web-Server.php">Web Server</a></li>
                 <li><a href="FTP-Server.php">FTP Server</a></li>
                 <li><a href="Team.php">Team</a></li>
                 <li><a href="gallery.php">gallery</a></li>
+                <li><a href="ContactUs.php">Contact Us</a></li>
              </ul>
 
         </nav>

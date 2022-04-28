@@ -11,6 +11,7 @@ require_once 'includes/header.php';
         <p>Just a bunch of Techies Vibing</p>
         <a href="Topic.php"><button class="btn">Todays Topic</button></a>
         <a href="Team.php"><button class="btn">The Team</Table></button></a>
+        <a href="ContactUs.php"><button class="btn">Contact Us</button></a>
     </div>
     
     <div class="image">
